@@ -24,7 +24,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private CustomUserDetailService userDetailService; // load y username
+    private CustomUserDetailService userDetailService; // load by username
 
     @Bean
     PasswordEncoder passwordEncoder(){
